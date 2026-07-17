@@ -4,6 +4,8 @@
 
 Built for the **Build with DataHub: The Agent Hackathon**.
 
+**▶ [Watch the 68-second demo](https://youtu.be/YD-aeldWpRM)**
+
 ---
 
 ![DataHub lineage graph that LineageGuard walks](examples/lineage_screenshot.png)
