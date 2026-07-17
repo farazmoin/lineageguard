@@ -6,6 +6,10 @@ Built for the **Build with DataHub: The Agent Hackathon**.
 
 ---
 
+![DataHub lineage graph that LineageGuard walks](examples/lineage_screenshot.png)
+
+*The live DataHub lineage LineageGuard reads: `analytics.core.customers` fanning out to three downstream datasets. A proposed `DROP COLUMN` on the source is the change LineageGuard reviews — see the generated PR comment in [`examples/sample_review.md`](examples/sample_review.md).*
+
 ## The problem
 
 A data engineer opens a PR that drops a column or replaces a view. The reviewer has no way to know, at review time, what that change actually breaks: which dashboards go blank, which ML models lose a feature, whether the column was PII, and who owns the things downstream. That knowledge lives in DataHub — but nobody cross-references it by hand on every PR.
