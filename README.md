@@ -4,7 +4,7 @@
 
 Built for the **Build with DataHub: The Agent Hackathon**.
 
-**▶ [Watch the 68-second demo](https://youtu.be/gEffyXov300)**
+**▶ [Watch the demo — live terminal run against a running DataHub instance](https://youtu.be/gEffyXov300)**
 
 ---
 
